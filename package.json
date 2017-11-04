@@ -7,6 +7,7 @@
   "author": "Oler <roodrigoprogrammer@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "react-native-linear-gradient": "^2.3.0",
     "reason-react": "^0.2.4"
   },
   "devDependencies": {
