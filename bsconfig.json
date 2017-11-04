@@ -13,14 +13,9 @@
   "sources": [
     {
       "dir": "re",
-      "sources": [
+      "subdirs": [
         {
-          "dir": "re",
-          "subdirs": [
-            {
-              "dir": "types"
-            }
-          ]
+          "dir": "types"
         }
       ]
     }
