@@ -12,7 +12,17 @@
   ],
   "sources": [
     {
-      "dir": "re"
+      "dir": "re",
+      "sources": [
+        {
+          "dir": "re",
+          "subdirs": [
+            {
+              "dir": "types"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
