@@ -1,0 +1,21 @@
+{
+  "name": "bs-linear-gradient",
+  "version": "1.0.0",
+  "description": "Linear Gradient for Reason",
+  "main": "lib/js/re/LinearGradient.js",
+  "repository": "git@github.com:reasonbrazil/bs-linear-gradient.git",
+  "author": "Oler <roodrigoprogrammer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "reason-react": "^0.2.4"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.0.0"
+  },
+  "scripts": {
+    "start": "yarn bs:watch",
+    "bs:build": "bsb -make-world -clean-world",
+    "bs:watch": "bsb -make-world -clean-world -w",
+    "bs:setup": "bsb -make-world"
+  }
+}
